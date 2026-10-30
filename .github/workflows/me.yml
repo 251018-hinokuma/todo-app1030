@@ -1,0 +1,12 @@
+name : 日隈
+age : 20
+skills :
+  - html
+  - java
+  - react
+school : 
+  name :  吉田学園
+  department : 情報システム
+goal : |
+  アプリを公開
+  自動デプロイする
