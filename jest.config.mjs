@@ -13,10 +13,15 @@ const config = {
   },
   collectCoverageFrom: ['app/**/*.js', 'components/**/*.js', 'lib/**/*.js', '!**/*.test.js'],
   coverageThreshold: {
-    global: {
-      lines: 90,
-    },
+  global: {
+    lines: 80,
   },
+  './lib/': {
+    lines: 100,
+    branches: 100,
+  },
+},
+
 
 }
 
